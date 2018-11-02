@@ -2,6 +2,12 @@
 
 This is a homework series to practice Java programming for beginner
 
+## Where is homework?
+
+Please see branches, each branch is one homework.
+
+Branch name is homework-{class using mainly in homework}-{series number}
+
 ## How to summit your code
 
 * Create your own branch by following this pattern
