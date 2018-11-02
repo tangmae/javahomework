@@ -21,8 +21,12 @@ public class JavaHomework {
      * @param args
      */
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        System.out.println("Hello World!");
+        showAllPrimeNumber(5); // expected => { 2, 3, 5 }
+        showAllPrimeNumber(10); // expected => { 2, 3, 5, 7 }
+    }
+    
+    public static void showAllPrimeNumber(int maximum) {
+        // write your method here
     }
     
 }
