@@ -12,6 +12,9 @@ Branch name is homework-{class using mainly in homework}-{series number}
 
 * Create your own branch by following this pattern
 ```
- yourname-{homwork-branch-name}
+ yourname-{homework-branch-name}
+
+ # example
+ tangmae-homework-integer-001
 ```
 * Commit your code to the branch, push and send pull-request when it's ready!
