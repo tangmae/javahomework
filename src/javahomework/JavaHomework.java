@@ -19,25 +19,19 @@ public class JavaHomework {
     /**
      * @param args
      */
-     // Create method to operate the number as the following
-     // plusNumber(int x, int y)
-     // minusNumber(int x, int y)
-     // multiplyNumber(int x, int y)
-     // divideNumber(int x, int y)  => x/y
-     // plusRangeOfNumber(int x, int y) => result of accumulating from x to y  => x + (x+1) + (x+2) + ... + y
+
     public static void main(String[] args) {
 
-    }
-
-    // the method should return the number of result
-    // int result = plusNumber(1, 2);
-    // System.out.println(result); => output in the console must showing "3"
-    // https://www.safaribooksonline.com/videos/java-for-beginners/9781788996518/9781788996518-video3_11
-    // https://www.tutorialspoint.com/java/java_methods.htm
-    // or search "java method with return" on google
-    // the below method still incomplete and something incorrect please fix it ~!
-    public static void plusNumber(int x, int y) {
+        printOddNumberInRange(1,10) // output should be 1,3,5,7,9,10
+        printPrimeNumberInRange(1,10) // output should be 1,3,5,7
 
     }
+
+    // write a method which can find and print odd numbers from assigned range x - y
+    public static void printOddNumberInRange(int x, int y) {
+
+    }
+
+    // write a method which can find and print prime numbers from assigned range x - y
 
 }
