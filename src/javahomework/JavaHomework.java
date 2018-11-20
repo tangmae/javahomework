@@ -22,16 +22,29 @@ public class JavaHomework {
 
     public static void main(String[] args) {
 
-        printOddNumberInRange(1,10) // output should be 1,3,5,7,9,10
-        printPrimeNumberInRange(1,10) // output should be 1,3,5,7
+        isDivisible(25, 5) //output in boolean -> true or false
+        // example isDivisible(25, 5) -> true
+        // example isDivisible(25, 3) -> false
+        // example isDivisible(20, 4) -> true
+
+        isPrimeNumber(13) //output true or false
+        // example isPrimeNumber(13) -> true
+        isPrimeNumber(93)
+        isPrimeNumber(149)
+        isPrimeNumber(169)
+        isPrimeNumber(20)
+        isPrimeNumber(13)
+        isPrimeNumber(13)
+        // 素数（そすう）とは、1 と自分自身以外に正の約数を持たない
+    }
+
+    public static boolean isDivisible(int number, int divisor) {
 
     }
 
-    // write a method which can find and print odd numbers from assigned range x - y
-    public static void printOddNumberInRange(int x, int y) {
+
+    public static boolean isPrimeNumber(int number) {
 
     }
-
-    // write a method which can find and print prime numbers from assigned range x - y
 
 }
