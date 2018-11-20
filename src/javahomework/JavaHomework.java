@@ -22,19 +22,34 @@ public class JavaHomework {
 
     public static void main(String[] args) {
 
-        isDivisible(25, 5) //output in boolean -> true or false
+        boolean ans = isDivisible(25, 5); //output in boolean -> true or false
+        System.out.println(ans);
+        
         // example isDivisible(25, 5) -> true
         // example isDivisible(25, 3) -> false
         // example isDivisible(20, 4) -> true
 
-        isPrimeNumber(13) //output true or false
+        ans = isPrimeNumber(13);//output true or false
+        System.out.println(ans);
         // example isPrimeNumber(13) -> true
-        isPrimeNumber(93)
-        isPrimeNumber(149)
-        isPrimeNumber(169)
-        isPrimeNumber(20)
-        isPrimeNumber(13)
-        isPrimeNumber(13)
+        ans = isPrimeNumber(93);
+        System.out.println(ans);
+
+        ans = isPrimeNumber(149);
+        System.out.println(ans);
+
+        ans = isPrimeNumber(169);
+        System.out.println(ans);
+
+        ans = isPrimeNumber(20);
+        System.out.println(ans);
+
+        ans = isPrimeNumber(13);
+        System.out.println(ans);
+
+        ans = isPrimeNumber(13);
+        System.out.println(ans);
+
         // 素数（そすう）とは、1 と自分自身以外に正の約数を持たない
     }
 
